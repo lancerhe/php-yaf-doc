@@ -128,14 +128,14 @@ final class Dispatcher {
 	 * Retrieve the\Yaf\Application instance. same as\Yaf\Application::app().
 	 *
 	 * @link http://www.php.net/manual/en/yaf-dispatcher.getapplication.php
-	 * @return\Yaf\Application
+	 * @return \Yaf\Application
 	 */
 	public function getApplication(){ }
 
 	/**
 	 * @link http://www.php.net/manual/en/yaf-dispatcher.getrouter.php
 	 *
-	 * @return\Yaf\Router
+	 * @return \Yaf\Router
 	 */
 	public function getRouter(){ }
 
@@ -240,14 +240,14 @@ final class Dispatcher {
 	 *
 	 * @param \Yaf\Request_Abstract $request
 	 *
-	 * @throws\Yaf\Exception\TypeError
-	 * @throws\Yaf\Exception\RouterFailed
-	 * @throws\Yaf\Exception\DispatchFailed
-	 * @throws\Yaf\Exception\LoadFailed
-	 * @throws\Yaf\Exception\LoadFailed\Action
-	 * @throws\Yaf\Exception\LoadFailed\Controller
+	 * @throws \Yaf\Exception\TypeError
+	 * @throws \Yaf\Exception\RouterFailed
+	 * @throws \Yaf\Exception\DispatchFailed
+	 * @throws \Yaf\Exception\LoadFailed
+	 * @throws \Yaf\Exception\LoadFailed\Action
+	 * @throws \Yaf\Exception\LoadFailed\Controller
 	 *
-	 * @return\Yaf\Response_Abstract
+	 * @return \Yaf\Response_Abstract
 	 */
 	public function dispatch(\Yaf\Request_Abstract $request){ }
 

@@ -148,7 +148,7 @@ final class Application {
 	/**
 	 * @link http://www.php.net/manual/en/yaf-application.getconfig.php
 	 *
-	 * @return\Yaf\Config_Abstract
+	 * @return \Yaf\Config_Abstract
 	 */
 	public function getConfig(){ }
 
@@ -164,7 +164,7 @@ final class Application {
 	/**
 	 * @link http://www.php.net/manual/en/yaf-application.getdispatcher.php
 	 *
-	 * @return\Yaf\Dispatcher
+	 * @return \Yaf\Dispatcher
 	 */
 	public function getDispatcher(){ }
 
